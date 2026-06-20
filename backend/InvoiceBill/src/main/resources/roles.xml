@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roles>
+    <role>
+        <roleName>ADMIN</roleName>
+        <isActive>true</isActive>
+    </role>
+    <role>
+        <roleName>USER</roleName>
+        <isActive>true</isActive>
+    </role>
+    <role>
+        <roleName>TRAINER</roleName>
+        <isActive>true</isActive>
+    </role>
+    <role>
+        <roleName>SYSADMIN</roleName>
+        <isActive>true</isActive>
+    </role>
+     <role>
+        <roleName>CASHIER</roleName>
+        <isActive>true</isActive>
+    </role>
+    
+</roles>

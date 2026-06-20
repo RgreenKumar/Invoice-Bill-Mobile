@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <username>SYSADMIN</username>
+        <psw>$2a$10$yZhfHPJjnekxJMmvjasO2uuwY8NJr1MYBU3onERJCs.s/ojsamxA6</psw>
+        <email>sysadmin@gmail.com</email>
+        <dob>1990-01-01</dob>
+        <phone>9566191759</phone>
+        <skills>Java,Spring</skills>
+        <countryCode>+91</countryCode>
+        <role>SYSADMIN</role>
+        <companyName>Meganartech</companyName>
+    </user>
+    
+</users>
