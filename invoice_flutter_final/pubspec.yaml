@@ -1,0 +1,54 @@
+name: invoicebill_flutter
+description: "Flutter conversion of the Invoice/LMS React frontend (KnowledgeVista / InvoiceBill)."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Networking (mirrors axios usage in React app)
+  dio: ^5.4.3
+
+  # Routing (mirrors react-router-dom routes in App.js)
+  go_router: ^14.2.0
+
+  # State management (mirrors GlobalStateProvider / React Context)
+  provider: ^6.1.2
+
+  # Session storage (mirrors window.sessionStorage: token, role, userid, email, ...)
+  shared_preferences: ^2.2.3
+
+  # Charts (mirrors apexcharts / react-apexcharts used on Dashboard)
+  fl_chart: ^0.68.0
+
+  # Fonts (mirrors assets/fonts/opensans + Feather/FontAwesome icon fonts)
+  google_fonts: ^6.2.1
+
+  # Icons (mirrors Feather / FontAwesome icon usage across the app)
+  font_awesome_flutter: ^10.7.0
+
+  # PDF export (mirrors jspdf / html2pdf.js used for invoices/estimates)
+  pdf: ^3.11.1
+  printing: ^5.13.1
+
+  # File picking (mirrors <input type="file"> used across licence/backup/
+  # item-image upload forms)
+  file_picker: ^8.1.2
+
+  # Date formatting (mirrors moment.js)
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    #- assets/images/
